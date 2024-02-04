@@ -1,0 +1,13 @@
+/* OutputDisplay.module.css */
+.outputDisplay {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+  width: 60%; /* Set width to 60% of the parent container */
+  margin-left: auto; /* These two lines center the div */
+  margin-right: auto;
+  overflow: auto; /* In case the content is too wide, add scrolling */
+}

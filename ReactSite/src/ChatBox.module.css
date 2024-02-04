@@ -1,0 +1,30 @@
+/* ChatBox.module.css */
+.chatBox {
+  display: flex;
+  align-items: center;
+  width: 80%; /* or the specific width that matches the OutputDisplay */
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+}
+
+.inputField {
+  flex-grow: 1; /* Makes the input field fill the available space */
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none; /* Prevents resizing if you don't want it */
+}
+
+.sendButton {
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.sendButton img {
+  width: 30px;
+  height: auto;
+}
